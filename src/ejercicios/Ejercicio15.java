@@ -15,7 +15,7 @@ public class Ejercicio15 {
 				+ "centigrados a Kelvin");
 		float centigrados = teclado.nextFloat();
 		System.out.println("Son "+(centigrados+273)+" grados kelvin");
-
+		teclado.close();
 	}
 
 }
